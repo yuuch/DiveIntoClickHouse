@@ -1,0 +1,6 @@
+[book]
+authors = ["yuuch"]
+language = "Chinese"
+multilingual = true
+src = "src"
+title = "Dive into ClickHouse"
