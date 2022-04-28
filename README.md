@@ -1,2 +1,2 @@
-# ClickHouse-Kernel-Develop-Notes
+# DiveIntoClickHouse
 ClickHouse Kernel Develop Notes
