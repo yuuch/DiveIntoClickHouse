@@ -5,7 +5,6 @@
 # Query Executing
 
 - [SQL to AST](./CH1.md)
-    - [networkHandler](./NetworkHandler.md)
 - [AST Rewrite](./CH2.md)
 - [AST to ActionsDAG](./CH3.md)
 - [ActionsDAG to QueryPlan](./CH4.md)
