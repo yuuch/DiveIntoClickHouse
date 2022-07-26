@@ -136,5 +136,9 @@ SELECT col_1, col_2 FROM `db`.`t`
     select_query->setExpression(ASTSelectQuery::Expression::SELECT, std::move(select_expression_list));
     select_query->setExpression(ASTSelectQuery::Expression::TABLES, std::move(tables));
 ```
+最后AST大致如下所示：
+
+![select](imgs/AST_Select.svg)
+
 至此解析完毕并把结果存入了一个ASTSelectQuery中。
 后续将会是对这个AST做一些优化，比如谓词下推，const fold等。
