@@ -5,4 +5,4 @@ multilingual = true
 src = "src"
 title = "Dive into ClickHouse"
 [output.html]
-site-url = "/DiveIntoClickHouse"
+site-url = "/DiveIntoClickHouse/"
